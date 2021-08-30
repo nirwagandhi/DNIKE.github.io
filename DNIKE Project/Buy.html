@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="Navigation">
+            <div class="DNIKE">
+                <h1 id="head">DNIKE</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="Buy.html">Buy</a></li>
+                    <li><a href="Testimonial.html">Testimonial</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <hr>
+    </header>
+
+    <main>
+
+        <section class="Container3">
+            <div id="buyTittle">
+                <h1> Buy</h1>
+            </div>
+            <div id="contentBuy">
+                <div class="contentForm">
+                    <div>
+                        <h2 id="h2profile">Profile</h2>
+                    </div>
+                    <form action="Home.html" id="form" class="form" onsubmit="return validate()" autocomplete="off">
+                        <div class="formControl">
+                            <label for="name" class="labelF">Name</label>
+                            <input type="text" name="name" id="name" placeholder="Input your Name(s)">
+                            <br>
+                        </div>
+                        <div class="formControl">
+                            <label for="email" class="labelF">Email</label>
+                            <input type="text" id="email" name="email" placeholder="Input your Email">
+                            <br>
+                        </div>
+                        <div class="formControlG">
+                            <label for="gender" class="labelF">Gender</label><br>
+                            <input type="radio" name="gender" id="male">
+                            <label for="male" id="maleLabel" class="labelF">Male</label>
+                            <input type="radio" name="gender" id="female">
+                            <label for="female" id="femaleLabel" class="labelF">Female</label>
+                            <br>
+                        </div>
+                        <div class="formControl">
+                            <label for="postalcode" class="labelF">Postal Code</label>
+                            <input type="text" name="postalcode" id="postalcode" placeholder="Input your Postal Code">
+                            <br>
+                        </div>
+                        <div class="formControl">
+                            <label for="address" class="labelF">Address</label>
+                            <input type="text" name="address" id="address" placeholder="Input your Address">
+                            <br>
+                        </div>
+                        <div class="formControl">
+                            <label for="shoes" class="labelF">Choose Product</label> <br><br>
+                            <select name="shoes" id="select">
+                                <option value="" selected hidden>Select Shoes</option>
+                                <option value="Air Jordan 1 Retro High Not for Resale Varsity Red">Air Jordan 1 Retro
+                                    High Not for Resale Varsity Red</option>
+                                <option value="Jordan 1 Retro High White University Blue Black">Jordan 1 Retro High
+                                    White University Blue Black</option>
+                                <option value="Jordan 1 Retro High Bloodline">Jordan 1 Retro High Bloodline</option>
+                                <option value="Jordan 1 Retro High Dior">Jordan 1 Retro High Dior</option>
+                                <option value="Air Jordan 10 Seattle">Air Jordan 10 Seattle</option>
+                                <option value="Jordan 9 Retro University Blue (GS)">Jordan 9 Retro University Blue (GS)
+                                </option>
+                                <option value="Jordan 5 Retro White Stealth">Jordan 5 Retro White Stealth</option>
+                                <option value="Jordan 3 Retro Georgetown">Jordan 3 Retro Georgetown</option>
+                                <option value="Jordan 4 Retro University Blue">Jordan 4 Retro University Blue</option>
+
+                            </select>
+                            <br>
+                        </div>
+                        <div class="formControl">
+                            <label for="creditcard" class="labelF">Credit Card</label>
+                            <input type="text" name="creditcard" id="creditcard" placeholder="Input your Credit Card">
+                            <br>
+                        </div>
+                        <div class="formControlA">
+                            <input type="checkbox" name="agreement" id="agreement">
+                            <label for="agreement" class="labelF" id="agreement">I accept the Agreement</label>
+                            <br>
+                        </div>
+                        <div>
+                            <input type="submit" value="Submit" id="submit">
+                        </div>
+                    </form>
+                </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <h1 id="footer">DNIKE</h1>
+        <p>Copyright &#169;</p>
+    </footer>
+
+
+</body>
+
+</html>

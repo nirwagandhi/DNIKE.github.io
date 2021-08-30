@@ -1,0 +1,572 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+ 
+    
+    
+}
+#head{
+    text-shadow: 2px 2px rgb(101, 118, 119);
+    font-weight: bold;
+    margin: 10px;
+    
+}
+
+#Header {
+    width: 100%;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+  }
+
+.Navigation{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+a{
+    text-decoration: none;
+    color: #495057;
+}
+
+
+
+a:hover{
+    color: #adb5bd;
+}
+
+.Container{
+    margin-top: 100px;
+}
+
+.Container2{
+    margin-top: 10px;
+}
+
+.Container, .container2 {
+   justify-content: center;
+}
+
+#SOTM h1{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+#SOTM p{
+    text-align: center;
+    color: #495057;
+}
+
+
+.Content{
+    display: flex;
+    justify-content: center;
+}
+#break{
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
+
+#first img{
+   width: 80%;
+   margin-bottom: 50px;
+}
+
+
+#first{
+    width:20%;
+    text-align: center;
+    border: 1px solid transparent;
+    margin-top: 50px;
+    margin-left: 80px;
+    padding: 5px;
+    flex-basis: 25%;
+    color: #495057;
+}
+
+#button{
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    background-color: #495057;
+    color: white;
+    border: 1px solid rgb(124, 119, 119);
+    font-size: 15px;
+    
+}
+
+#button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#first:hover{
+    border: 1px solid #adb5bd;
+}
+
+.ContainerHome{
+    background-image: url(images/Jordan\ 1\ Retro\ High\ Bloodline\ Background.jpg);
+    background-size: 100%;
+    height: 1200px;
+}
+
+.ContentHome{
+    background-color: rgb(198, 61, 81);
+    height: 600px;
+    display: flex;
+    margin-top: 65.9em;
+    
+
+} 
+
+#SOTMhome h1{
+    margin-top: 60px;
+    padding-top: 60px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#SOTMhome p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 0.5px 0.5px black;
+}
+
+
+
+.ContentHome #description1{
+    margin-top: 70px;
+    flex-basis: 50%;
+    margin-right: 50px;
+    text-align: justify;
+    line-height: 1.5;
+    color: white;
+}
+
+#shoes1 img{
+    width: 50%;
+    margin-bottom: 50px;
+ }
+
+#shoes1{
+    width: 20%;
+    text-align: center;
+    border: 1px solid transparent;
+    margin-left: 0px;
+    flex-basis: 50%;
+    color: white;
+}
+.Container2Home{
+    margin-top: 500px;
+    background-image: url("images/Jordan\ 1\ Retro\ High\ Dior\ Background.jpeg") ;
+    background-size: 100%;
+    height: 1200px;
+ }
+
+ .Content2Home{
+    background-color: rgb(237, 240, 250);
+    margin-top: 58em;
+    height: 700px;
+    display: flex;
+}
+ 
+ #SOTM2 h1{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #495057;
+    padding-top: 20px;
+    text-shadow: 2px 2px white;
+}
+
+#SOTM2 p{
+    font-size: 20px;
+    text-align: center;
+    color: #495057;
+    text-shadow: 0.5px 0.5px white;
+}
+#shoes2 img{
+    width: 50%;
+    margin-bottom: 50px;
+ }
+
+#shoes2{
+    width: 20%;
+    text-align: center;
+    border: 1px solid transparent;
+    margin-left: 0px;
+    flex-basis: 50%;
+}
+
+#description{
+    margin-top: 70px;
+    flex-basis: 50%;
+    margin-right: 50px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+#second img{
+    width: 80%;
+    margin-bottom: 50px;
+ }
+
+#second{
+    width:20%;
+    text-align: center;
+    border: 1px solid transparent;
+    margin-top: 50px;
+    margin-left: 80px;
+    padding: 5px;
+    flex-basis: 25%;
+    color: #495057;
+}
+ 
+ #second:hover{
+     border: 1px solid #adb5bd;
+ }
+
+#footerHome{
+     margin-top: 475px;
+     background-color: #6c757dd0;
+     padding: 50px;
+ }
+
+
+#footerHome h1{
+    color: white;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-weight: bold;
+    
+ }
+#footer p {
+     color: white;
+ }
+
+footer{
+    margin-top: 40px;
+    background-color: #6c757dd0;
+    padding: 50px;
+}
+
+footer h1{
+    color: white;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-weight: bold;
+    
+ }
+ footer p {
+    color: white;
+}
+
+
+/* Gallery */
+
+#SOTM h1{
+    
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #495057;
+    padding-top: 20px;
+    text-shadow: 2px 2px white;
+}
+
+ /* Buy */
+
+#buyTittle{
+    font-size: 20px;
+    text-align: center;
+    color: #495057;
+ }
+
+.Container3{
+    width: 95%;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+#contentBuy{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#contentBuy h2{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: #495057;
+}
+
+
+.contentForm{
+    border: 1px solid #495057;
+    justify-content: center;
+
+}
+
+
+
+#form{
+    /* text-align: center; */
+    color: #495057;
+    width: 50%;
+    margin-left: 42%;
+}
+
+
+.formControl {
+    margin-top: 10px;
+
+}
+
+.formControl input {
+    display: block;
+}
+
+input{
+    width: 220px;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+#form #male{
+    width: 35px;
+}
+
+#maleLabel{
+    padding-top: -10px;
+}
+
+#form #female{
+    width: 35px;
+    margin-left: 40px;
+}
+
+#select{
+    width: 235px;
+    height: 35px;
+}
+
+#agreement {
+    width: 5%;
+}
+
+#submit{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    margin: 20px;
+    margin-left: 5px;
+    background-color: #495057;
+    color: white;
+    border: 1px solid rgb(124, 119, 119);
+}
+#submit:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+/* testi */
+
+
+.Container4{
+    width: 95%;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+
+#testi{
+    text-align: center;
+    color: #495057;
+}
+
+#contentTesti{
+    width: 95%;
+    border: 1px solid #495057;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 65px;
+}
+
+.column1{
+    width: 500px;
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+}
+
+#avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+#avatar img{
+    width: 100%;
+
+}
+
+#profile {
+    display: flex;
+    align-items: center;
+}
+
+#customerName{
+    color: #495057;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#customerName span{
+   color: #495057;
+   font-weight: 12px;
+}
+
+#star {
+    display:flex ;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.checked {
+    color: orange;
+
+}
+
+#comment{
+    margin: 10px;
+    color: #495057;
+}
+
+hr{
+    color: #495057;
+}
+
+#comment p{
+    text-align: justify;
+}
+
+
+/* about us */
+
+
+
+#titleAboutUs {
+    color: #495057;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Container5{
+    width: 95%;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+
+#contentAboutUs{
+    border: 1px solid #495057;
+    text-align: left;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.imageStore{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    
+}
+
+#store{
+color: #495057;
+}
+
+.imageStore img{
+    flex: 25%;
+    width: 20%;
+    padding: 10px;
+}
+
+#storeDescription{
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #495057;
+}
+
+#CEO {
+    color: #495057;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#profileCEO{
+    text-align: center;
+    color: #495057;
+    margin-top: 20px;
+}
+
+#CEO img{
+    width: 25%;
+}
+
+#descCEO{
+    line-height: 1.6;
+    color: #495057;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#descStore{
+    color: #495057;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
